@@ -1,6 +1,6 @@
 [project]
 name = "iflow-mcp_masihmoafi-a-modular-kingdom"
-version = "0.1.0"
+version = "0.1.1"
 description = "A modular agentic kingdom with memory, RAG, and web search"
 dependencies = [
     "mcp",
@@ -38,7 +38,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["agent", "memory", "rag", "tools"]
+packages = ["src/agent", "src/memory", "src/rag", "src/tools"]
 
 [dependency-groups]
 dev = [
