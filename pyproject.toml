@@ -1,10 +1,10 @@
 [project]
-name = "a-modular-kingdom"
+name = "iflow-mcp_masihmoafi-a-modular-kingdom"
 version = "0.1.0"
 description = "A modular agentic kingdom with memory, RAG, and web search"
 dependencies = [
     "mcp",
-    "fastmcp", 
+    "fastmcp",
     "ollama",
     "mem0ai",
     "chromadb",
